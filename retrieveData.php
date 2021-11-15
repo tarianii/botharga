@@ -52,7 +52,7 @@ function datacrash5()
             $minusku = substr($minus, 0, 4);
             $harga = $a['last'];
             if ($minus > 5) {
-                $list_crash5 = $list_crash5 . "\n$aset || $minusku % || $harga";
+                $list_crash5 = $list_crash5 . "\n\n $aset ||🔻$minusku % ||💸$harga";
             }
         }
     }
@@ -73,7 +73,7 @@ function datacrash10()
             $minusku = substr($minus, 0, 4);
             $harga = $a['last'];
             if ($minus > 10) {
-                $list_crash10 = $list_crash10 . "\n$aset || $minusku % || $harga";
+                $list_crash10 = $list_crash10 . "\n\n $aset ||🔻$minusku % ||💸$harga";
             }
         }
     }
@@ -94,7 +94,7 @@ function datacrash20()
             $minusku = substr($minus, 0, 4);
             $harga = $a['last'];
             if ($minus > 2) {
-                $list_crash20 = $list_crash20 . "\n$aset || $minusku % || $harga";
+                $list_crash20 = $list_crash20 . "\n\n $aset ||🔻$minusku % ||💸$harga";
             }
         }
     }
